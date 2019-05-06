@@ -2,11 +2,11 @@
   text-decoration: line-through;
 }
 
-/* .coolTitle {
+.coolTitle {
   text-align: center;
   font-family: 'Oswald', Helvetica, sans-serif;
   font-size: 40px;
-  transform: skewY(-10deg);
+  /* transform: skewY(-10deg); */
   letter-spacing: 4px;
   word-spacing: -8px;
   color: tomato;
@@ -20,4 +20,4 @@
     -7px -7px 0 firebrick,
     -8px -8px 0 firebrick,
     -30px 20px 40px dimgrey;
-} */
+}

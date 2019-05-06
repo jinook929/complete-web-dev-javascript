@@ -68,3 +68,33 @@ enter.addEventListener("click", addListAfterClick);
 // enter.onclick = addListAfterClick;
 
 userinput.addEventListener("keypress", addListAfterKeypress);
+
+
+// Scope ======================================
+
+var fun = 5; // Root Scope
+console.log("window", fun);
+
+function funFunction() {
+  // child scope
+  var fun = "Hello";
+  console.log(1, fun);
+}
+funFunction();
+console.log("window", fun);
+
+function funnerFunction() {
+  // child scope
+  var fun = "Bye";
+  console.log(2, fun);
+}
+funnerFunction();
+console.log("window", fun);
+
+function funnestFunction() {
+  // child scope
+  fun = "AHHHHH";
+  console.log(3, fun);
+}
+funnestFunction();
+console.log("window", fun);

@@ -1,0 +1,58 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgba(0, 0, 0, 0.5);
+	text-transform: uppercase;
+  letter-spacing: 0.5em;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+p {
+  margin-top: 0;
+}
+
+h1 {
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+
+h2,h3 {
+  margin-bottom: 10px;
+	text-transform: none;
+	letter-spacing: 0.05em;
+}
+
+h3 {
+  margin-top: 0;
+  max-width: 95vw;
+}
+
+button {
+  color: rgba(250, 250, 250, 0.75);
+  font-size: 1.5rem;
+  background: rgba(0, 0, 0, 0.2);
+  border: none;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 5px;
+  width: 50%;
+  justify-self: center;
+}
+
+button:hover {
+  color: rgba(250, 250, 250, 0.95);
+  background: rgba(0, 0, 0, 0.7);
+}
+
+button:focus {
+  outline-color: rgba(0, 0, 0, 0);
+}
+
+#gradient {
+	background: linear-gradient(to right, #808080, #c0c0c0);
+}
