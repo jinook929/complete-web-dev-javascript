@@ -47,7 +47,7 @@ function addTo_(x) {
     return x + y;
   }
 }
-
+ 
 //Currying: What does the last line return?
 const sum = (a, b) => a + b
 const curriedSum = (a) => (b) => a + b
